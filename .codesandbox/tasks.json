@@ -13,6 +13,10 @@
       "name": "yarn dev",
       "command": "yarn dev",
       "runAtStart": true
+    },
+    "git add remote origin. https://github.com/vengateshkarthick/expometer": {
+      "name": "git",
+      "command": "git add remote origin. https://github.com/vengateshkarthick/expometer"
     }
   }
 }
