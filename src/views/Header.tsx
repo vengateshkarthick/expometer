@@ -1,7 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
- return (
-    
- )
+  return (
+    <header className="header">
+      <span className="logo">Expometer</span>
+    </header>
+  );
 }
+
+export default Header;

@@ -1,10 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router";
+import Footer from "./Footer";
+import Header from "./Header";
+import "./views.scss";
 function ViewLayout() {
-  console.log("Main view");
   return (
-    <div className="viewlayout">
+    <div className="view-layout">
+      <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 }

@@ -156,8 +156,10 @@
       "category": "Health"
     }
   ],
-  "total_expenses": 320,
-  "total_savings": 680,
-  "total_wallets": 3,
-  "last_updated_date": 1637145600
+  "total_amount_expenses": 320,
+  "total_amount_savings": 680,
+  "total_amount_wallets": 1000,
+  "total_balance_amount": 0,
+  "no_of_entries": 17,
+  "last_updated_date": "2023-11-13"
 }
