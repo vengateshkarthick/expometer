@@ -1,0 +1,163 @@
+{
+  "wallet": [
+    {
+      "id": 1,
+      "date_of_transaction": "2023-11-17",
+      "amount": "150",
+      "amount_in_words": "One Hundred Fifty",
+      "currency_type": "Rupee",
+      "source": "Salary Account",
+      "category": "Interest on Deposit"
+    },
+    {
+      "id": 2,
+      "date_of_transaction": "2023-11-17",
+      "amount": "150",
+      "amount_in_words": "One Hundred Fifty",
+      "currency_type": "Rupee",
+      "source": "Hot Cash",
+      "category": "Pay check"
+    },
+    {
+      "id": 3,
+      "date_of_transaction": "2023-11-16",
+      "amount": "150",
+      "amount_in_words": "One Hundred Fifty",
+      "currency_type": "Rupee",
+      "source": "Hot Cash",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 4,
+      "date_of_transaction": "2023-11-14",
+      "amount": "300",
+      "amount_in_words": "Three Hundred",
+      "currency_type": "Rupee",
+      "source": "Salary Account",
+      "category": "Pay check"
+    },
+    {
+      "id": 5,
+      "date_of_transaction": "2023-11-15",
+      "amount": "200",
+      "amount_in_words": "Two Hundred",
+      "currency_type": "Rupee",
+      "source": "Salary Account",
+      "category": "Pay check"
+    },
+    {
+      "id": 6,
+      "date_of_transaction": "2023-11-17",
+      "amount": "100",
+      "amount_in_words": "One Hundred",
+      "currency_type": "Rupee",
+      "source": "Savings Account",
+      "category": "Interest on Deposit"
+    },
+    {
+      "id": 7,
+      "date_of_transaction": "2023-11-18",
+      "amount": "75",
+      "amount_in_words": "Seventy-Five",
+      "currency_type": "Rupee",
+      "source": "Savings Account",
+      "category": "Interest on Deposit"
+    },
+    {
+      "id": 17,
+      "date_of_transaction": "2023-11-18",
+      "amount": "75",
+      "amount_in_words": "Seventy-Five",
+      "currency_type": "Rupee",
+      "source": "Stock Exchange",
+      "category": "Interest on Deposit"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 8,
+      "date_of_transaction": "2023-11-10",
+      "amount": "40",
+      "amount_in_words": "Forty",
+      "currency_type": "Rupee",
+      "source": "Wallet",
+      "category": "Mobile/Internet Charges"
+    },
+    {
+      "id": 9,
+      "date_of_transaction": "2023-11-09",
+      "amount": "25",
+      "amount_in_words": "Twenty-Five",
+      "currency_type": "Rupee",
+      "source": "Wallet",
+      "category": "Home & Utilities"
+    },
+    {
+      "id": 10,
+      "date_of_transaction": "2023-11-08",
+      "amount": "20",
+      "amount_in_words": "Twenty",
+      "currency_type": "Rupee",
+      "source": "Wallet",
+      "category": "Transportation"
+    },
+    {
+      "id": 11,
+      "date_of_transaction": "2023-11-07",
+      "amount": "35",
+      "amount_in_words": "Thirty-Five",
+      "currency_type": "Rupee",
+      "source": "Credit Card",
+      "category": "Home & Utilities"
+    },
+    {
+      "id": 12,
+      "date_of_transaction": "2023-11-06",
+      "amount": "60",
+      "amount_in_words": "Sixty",
+      "currency_type": "Rupee",
+      "source": "Hot Cash",
+      "category": "Food"
+    },
+    {
+      "id": 13,
+      "date_of_transaction": "2023-11-05",
+      "amount": "45",
+      "amount_in_words": "Forty-Five",
+      "currency_type": "Rupee",
+      "source": "Credit Card",
+      "category": "Entertainment"
+    },
+    {
+      "id": 14,
+      "date_of_transaction": "2023-11-04",
+      "amount": "55",
+      "amount_in_words": "Fifty-Five",
+      "currency_type": "Rupee",
+      "source": "Hot Cash",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": 15,
+      "date_of_transaction": "2023-11-03",
+      "amount": "30",
+      "amount_in_words": "Thirty",
+      "currency_type": "Rupee",
+      "source": "Wallet",
+      "category": "Health"
+    },
+    {
+      "id": 16,
+      "date_of_transaction": "2023-11-07",
+      "amount": "30",
+      "amount_in_words": "Thirty",
+      "currency_type": "Rupee",
+      "source": "Wallet",
+      "category": "Health"
+    }
+  ],
+  "total_expenses": 320,
+  "total_savings": 680,
+  "total_wallets": 3,
+  "last_updated_date": 1637145600
+}

@@ -1,0 +1,65 @@
+$success: #32a852;
+$danger: #ef4f5f;
+$primary: #263e58;
+$secondary: #f1f2f7;
+$text-color: #121212;
+$hover-background-color: #263e581a;
+$transparent-back: #1a263194;
+
+@mixin flex($justifyContent: center, $alignItems: center) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin flexDirection($direction: row) {
+  flex-direction: $direction;
+}
+
+@mixin flexWrap($wrap: no-wrap) {
+  flex-wrap: $wrap;
+}
+
+@mixin Button {
+  border-radius: 100px;
+  padding: 0 0.9rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+@mixin ToolkitButtonOutline {
+  @include Button();
+  border: 0.1rem solid #1a2631;
+  background-color: #fff;
+  color: $text-color;
+}
+
+@mixin ToolkitButtonPrimary {
+  @include Button();
+  border: 0.1rem solid $primary;
+  color: #fff;
+  background-color: $primary;
+}
+
+@mixin ToolkitCard($width: 300px, $height: 100%) {
+  @include flex(center, flex-start);
+  @include flexDirection(column);
+  border-radius: 10px;
+  min-width: $width;
+  height: $height;
+  padding: 1.947rem;
+  max-width: 25vw;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+@mixin ToolkitBackDrop {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: $transparent-back;
+  backdrop-filter: blur(4px);
+}
