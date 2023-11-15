@@ -1,0 +1,21 @@
+@use "../../Components.scss" as default;
+.assert-card {
+  @include default.ToolkitCard(500px, 200px);
+  @include default.flex(center, center);
+  row-gap: 0.4rem;
+  .assert-header {
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: extra-expanded;
+    color: default.$primary-tilt;
+  }
+  .assert-img {
+    object-fit: cover;
+  }
+  .assert-count {
+    font-size: 1.5rem;
+    color: default.$primary;
+    font-weight: 500;
+    font-stretch: extra-expanded;
+  }
+}

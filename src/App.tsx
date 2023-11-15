@@ -1,9 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
 import { RouterProvider } from "react-router";
 import { createBrowserRouter } from "react-router-dom";
-import ViewLayout from "./views";
+import ViewLayout from "./layout";
+import "./App.css";
+import Home from "./views/Home";
 
 const routes = createBrowserRouter([
   {
@@ -16,7 +15,7 @@ const routes = createBrowserRouter([
       },
       {
         path: "/home",
-        element: <>yet to be implemented</>,
+        element: <Home />,
       },
     ],
   },

@@ -7,7 +7,9 @@ function ViewLayout() {
   return (
     <div className="view-layout">
       <Header />
-      <Outlet />
+      <div className="main-content">
+         <Outlet />
+      </div>
       <Footer />
     </div>
   );

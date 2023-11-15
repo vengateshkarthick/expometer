@@ -1,0 +1,5 @@
+@use "../../Components.scss" as default;
+.asset-card-container {
+  @include default.flex(space-between);
+  gap: 5rem;
+}

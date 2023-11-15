@@ -4,10 +4,9 @@
   display: grid;
   grid-template-areas:
     "header header . . ."
-    "card card . . ."
     "content content . . ."
     "footer footer . . .";
-  grid-template-rows: 50px calc(100% - 60%) calc(100% - 25%) 50px;
+  grid-template-rows: 50px auto 50px;
   row-gap: 1rem;
   height: 100%;
   .header {
@@ -38,5 +37,14 @@
       cursor: pointer;
       font-weight: 600;
     }
+  }
+  .main-content {
+    width: 90vw;
+    padding: 2rem;
+    margin: auto;
+    max-height: 90vh;
+    overflow: hidden auto;
+    grid-area: content;
+    grid-column: 1 / 12;
   }
 }
