@@ -1,0 +1,36 @@
+@use '../../Components.scss' as default;
+
+.log-card {
+    @include default.ToolkitCard(680px, 100%);
+    @include default.flex(flex-start, flex-start);
+    @include default.flexDirection(column);
+    user-select: none;
+    & .wallet {
+        border-top-color: default.$success;
+    }
+
+    & .expenses {
+        border-top-color: default.$danger;
+    }
+
+    .first-section {
+        @include default.flex(flex-start, center);
+        gap: 1rem;
+
+        .kebab-menu {
+            justify-self: flex-end;
+            @include default.flex();
+        }
+    }
+    .second-section {
+        @include default.flex(flex-start, center);
+        gap: 1rem;
+        .pill {
+            @include default.pill();
+        }
+    }
+    p {
+        font-size: 14px;
+        
+    }
+}

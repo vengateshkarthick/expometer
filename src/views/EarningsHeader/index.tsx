@@ -2,7 +2,7 @@ import React from "react";
 import { AnimatePresence } from "framer-motion";
 import AssertsCard from "../../Components/AssertsCard";
 import expenses from "../../assets/creditcard.svg";
-import income from "../../assets/wallet.svg";
+import income from "../../assets/process.svg";
 import savings from "../../assets/money.svg";
 import "./earnings-header.scss";
 

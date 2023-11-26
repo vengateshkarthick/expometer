@@ -64,3 +64,9 @@ $transparent-back: #1a263194;
   background-color: $transparent-back;
   backdrop-filter: blur(4px);
 }
+
+@mixin pill($background-color: $hover-background-color) {
+  background-color: default.$hover-background-color;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
